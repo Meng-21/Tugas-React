@@ -28,6 +28,8 @@ export default function Header() {
             </Link>
           </li>
           <li>
+          </li>
+          <li>
             <Link to="/team" className="nav-link px-2 text-success">
               Team
             </Link>

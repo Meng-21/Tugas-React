@@ -1,0 +1,46 @@
+.books{
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.title{
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+}
+
+.cardTitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.cardDescription{
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}

@@ -4,6 +4,7 @@ import Hero from "../components/shared/Hero";
 import List from "../components/shared/List";
 import Team from "../components/shared/Team";
 import Footer from "../components/shared/Footer";
+import BooksComponent from "../components/books";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Header/>
       <Hero/>
       <List/>
+      <BooksComponent/>
       <Team/>
       <Contact/>
       <Footer/>
